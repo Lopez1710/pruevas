@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dead1\\source\\repos\\PruevasQR\\PruevasQR\\PruevasQR.csproj": {}
+  },
+  "projects": {
+    "D:\\dead1\\source\\repos\\PruevasQR\\PruevasQR\\PruevasQR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dead1\\source\\repos\\PruevasQR\\PruevasQR\\PruevasQR.csproj",
+        "projectName": "PruevasQR",
+        "projectPath": "D:\\dead1\\source\\repos\\PruevasQR\\PruevasQR\\PruevasQR.csproj",
+        "packagesPath": "C:\\Users\\dead1\\.nuget\\packages\\",
+        "outputPath": "D:\\dead1\\source\\repos\\PruevasQR\\PruevasQR\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dead1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dynamsoft.DotNet.Barcode": {
+              "target": "Package",
+              "version": "[9.4.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            },
+            "MessagingToolkit.QRCode": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0-rc-3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta2, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

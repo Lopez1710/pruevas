@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.0.3/html5-qrcode.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="qr-reader" style="width:1000px"></div>
+
+    <div id="qr-reader-results"></div>
+
+    <script>
+        var resultContainer = document.getElementById('qr-reader-results');
+        var lastResult, countResults = 0;
+
+        function onScanSuccess(decodedText, decodedResult) {
+            if (decodedText !== lastResult) {
+                ++countResults;
+                lastResult = decodedText;
+                // Handle on success condition with the decoded message.
+                console.log(`Scan result ${decodedText}`, decodedResult);
+
+                alert(decodedText, decodedResult);
+            }
+        }
+
+        var html5QrcodeScanner = new Html5QrcodeScanner
+            (
+                "qr-reader", { fps: 30, qrbox: 600 }
+            );
+        html5QrcodeScanner.render(onScanSuccess);
+    </script>
+</body>
+</html>
